@@ -1,0 +1,23 @@
+// sass for TextManipulationApp.view.home.MainView
+.mainview { 
+	border-left: 0; 
+	border-top: 0; 
+	padding: 50px 200px 0px 200px;
+	background-color: $base-foreground-color;
+	color: $base-color; 
+	font-size: 24px;
+	background-image: linear-gradient(0deg,#f5f5f5 1.1px, transparent 0), linear-gradient(90deg,#f5f5f5 1.1px, transparent 0);
+	background-size: 20px 20px;
+	background-color: #e8e8e8;
+}
+.mainview-body{
+    background-color: rgba(255, 255, 255, 0)
+}
+.x-field.x-label-align-right{
+	flex-direction: row;
+}
+.x-textfield .x-input-el{
+	font: 400 20px/23px Roboto, sans-serif;
+    padding: 4px 0;
+    min-height: 16px;
+}
